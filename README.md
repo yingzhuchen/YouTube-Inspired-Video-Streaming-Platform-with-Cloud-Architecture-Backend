@@ -1,11 +1,11 @@
 # YouTube-Inspired-Video-Streaming-Platform-with-Cloud-Architecture-Backend
 
-## 🚀 Project Overview
+##  Project Overview
 This project is a high-performance recommendation engine designed to connect users with relevant software services and job opportunities. By leveraging a **Spring-based** backend and **OpenAI-driven** analytics, the system provides real-time, personalized matching with millisecond-level responsiveness.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 * **Frontend**: React, WebAssembly, Qwik (Performance Optimization), AJAX, JAMStack
 * **Backend**: Java Servlets, Spring Boot, Apache Tomcat, RESTful APIs
 * **Database & Cache**: MySQL (AWS RDS), Redis (LRU Eviction Policy)
@@ -15,7 +15,7 @@ This project is a high-performance recommendation engine designed to connect use
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 The system follows a scalable, multi-layer architecture designed to handle high-concurrency environments:
 
 ### 1. Business & Functional Layers
@@ -32,7 +32,7 @@ The system follows a scalable, multi-layer architecture designed to handle high-
 
 ---
 
-## 🤖 Recommendation Logic
+##  Recommendation Logic
 The system employs a hybrid recommendation strategy to ensure accuracy and solve the "cold start" problem:
 1.  **Semantic Analysis**: Uses **OpenAI API** to parse and tag complex service descriptions.
 2.  **Vector Matching**: Applies **TF-IDF** to calculate the similarity between user intent and available service metadata.
@@ -40,7 +40,7 @@ The system employs a hybrid recommendation strategy to ensure accuracy and solve
 
 ---
 
-## 🔄 CI/CD & Quality Assurance
+## CI/CD & Quality Assurance
 Built a robust DevOps pipeline to maintain high availability for mission-critical APIs:
 * **Automation**: Orchestrated **GitLab**, **Jenkins**, and **Docker** for a fully automated "commit-to-deploy" workflow.
 * **Comprehensive Testing**: Combined **JUnit** for unit testing and **Selenium** for automated UI/functional testing.
@@ -51,7 +51,7 @@ Built a robust DevOps pipeline to maintain high availability for mission-critica
 
 ---
 
-## 📊 Representative Performance Metrics
+## Representative Performance Metrics
 | Metric | Before Optimization | After Optimization |
 | :--- | :--- | :--- |
 | **p95 API Latency** | ~800ms | **140–160ms** |
